@@ -1,0 +1,30 @@
+/* :root{
+--text-color: blue;
+} */
+
+/* h1 {
+    color: blue;
+} */
+
+body{
+    /* background-color: blueviolet; */
+}
+
+#id-selector {
+    color: red;
+    font-size: 30px;
+}
+
+.class-selector {
+    color: yellow;
+    background: green;
+}
+
+p, strong {
+    color: red;
+}
+
+a:link{color: green;}
+a:visited{color: yellow;}
+a:hover{color: blue;}
+a:active{color: red;}

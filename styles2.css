@@ -1,0 +1,91 @@
+.box {
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: lightcoral;
+}
+
+.box:hover {
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 30px;
+    background-color: lightgreen;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.caja {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    /* top, right, bottom, left */
+    margin: 10px 0;
+}
+
+.caja1 {
+    border: 2px solid lightblue;
+    height: 50px;
+}
+
+.caja2 {
+    border: 2px solid lightcoral;
+    margin-right: 10px;
+    height: 100px;
+    flex: 1.5;
+}
+
+.caja3 {
+    border: 2px solid lightgreen;
+    margin-right: 10px;
+    height: 100px;
+    flex: 1;
+}
+
+.caja4 {
+    border: 2px solid lightseagreen;
+    height: 100px;
+   width: 200px;
+}
+
+.caja5 {
+
+    border: 2px solid lightblue;
+    height: 50px;
+
+}
+
+
+* {
+    border: 1px dashed red;
+}
+
+div p {
+    color: blue;
+}
+
+div > p{
+    font-weight: bold;
+}
+
+p + span{
+    color:red;
+}
+
+h1 ~ p{
+    font-style: italic;
+}
+
+h1, span{
+    background-color: yellow;
+}
